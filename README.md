@@ -1,1 +1,1 @@
-# tetris-knowledge-sphinx
+# tetris-knowledge
