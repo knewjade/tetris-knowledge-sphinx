@@ -6,6 +6,7 @@ set -eu
 
 # tetris-knowledge-sphinx直下で実行する
 
+make clean
 make html
 rm -rf ../tetris-knowledge/*
 cp -r ./build/html/* ../tetris-knowledge/
