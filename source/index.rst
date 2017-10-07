@@ -17,5 +17,7 @@ Welcome
 .. toctree::
    :hidden:
 
-   publish
+   publish_tools
+   publish_links
+   publish_docs
    contact
