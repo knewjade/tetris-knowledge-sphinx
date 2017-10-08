@@ -16,7 +16,7 @@
 
 このいずれかの形には100%もっていくことができます。
 
-::
+.. note::
 
   パフェ/セットアップ確率
   https://docs.google.com/spreadsheets/d/1EyKDwR8jaY561GjoghPT2NGFHTNmTgFOB9_OBYdZcz0/
@@ -40,7 +40,7 @@
   * 6ミノ置ききる前に対応を変えた場合は、これ以上のパフェ率を狙うことは可能
       * わかりやすいところだと「パフェテンプレのTの向きをネクストをみてから変更する」
 
-::
+.. note::
 
   テトリス　パフェテンプレ成功率（作成：Nilgiriさん）
   https://docs.google.com/spreadsheets/d/1bVY3t_X96xRmUL0qdgB9tViSIGenu6RMKX4RW7qWg8Y/
