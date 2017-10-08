@@ -40,7 +40,7 @@
 
 ただし、1+3段目・2+4段目はOKです。
 
-`テト譜：ライン消去の具体例 <http://fumen.zui.jp/?v115@9gG8whBeG8whAewwG8whxwG8whAewwJeAgH9gF8JeA?AQaAewwFeAPQpwwGeAAQpAtKeAAA9gF8BehlGeR4glFeR4w?wwSGexhKeAAA9gF8CeAtFeh0hlFeg0wDwSGeg0ySJeAAA9g?Bti0Q4DeA8BtA8g0R4ilFeQ4glAeAPFeglA8APgWJeAAA>`_
+`ライン消去の具体例：テト譜 <http://fumen.zui.jp/?v115@9gG8whBeG8whAewwG8whxwG8whAewwJeAgH9gF8JeA?AQaAewwFeAPQpwwGeAAQpAtKeAAA9gF8BehlGeR4glFeR4w?wwSGexhKeAAA9gF8CeAtFeh0hlFeg0wDwSGeg0ySJeAAA9g?Bti0Q4DeA8BtA8g0R4ilFeQ4glAeAPFeglA8APgWJeAAA>`_
 
 
 1回目からのミノの持ち越し
