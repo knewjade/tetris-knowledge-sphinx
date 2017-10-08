@@ -163,3 +163,5 @@ texinfo_documents = [
 # html_sidebars = {
 #     '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'],
 # }
+def setup(app):
+    app.add_stylesheet('custom.css')

@@ -20,4 +20,5 @@ Welcome
    publish_tools
    publish_links
    publish_docs
+   2pcsystem/index
    contact
