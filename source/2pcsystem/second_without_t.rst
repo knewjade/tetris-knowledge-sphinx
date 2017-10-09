@@ -215,7 +215,7 @@ Tがはやいときはパフェ、遅いときはT-Spinで割り切るのもひ�
 
 .. |c2_solution| raw:: html
 
-   <a href="http://fumen.zui.jp/?v115@HhA8BeA8FeF8DeH8LeAgWYAlfT6BY0DfEToXOBlvs2?AUDEfETo/ACZfBti0BeQ4BeA8BtA8g0BeR4AeF8zhH8Q4Ke?Bti0DewhA8BtA8g0BewwAewhF8ywI8AewhJeBti0Q4EeBtA?eg0R4ilFeQ4glVeAAt9AzXHDBQGfRA1dUzBGYHDBQpHSA1d?0ACzXHDBQRsRA1jB0ByXnQBm0nRA1d0KB3XHDBQeJSA1dkR?BiAAAA" target="_blank">
+   <a href="http://fumen.zui.jp/?v115@HhA8BeA8FeF8DeH8LeAgWYAlfT6BY0DfEToXOBlvs2?AUDEfETo/ACZfBti0BeQ4BeA8BtA8g0BeR4AeF8zhH8Q4Ke?Bti0DewhA8BtA8g0BewwAewhF8ywwhH8AewhJeBti0Q4EeB?tAeg0R4ilFeQ4glVeAAt9AzXHDBQGfRA1dUzBGYHDBQpHSA?1d0ACzXHDBQRsRA1jB0ByXnQBm0nRA1d0KB3XHDBQeJSA1d?kRBiAAAA" target="_blank">
       消しかた：テト譜
    </a>
 
