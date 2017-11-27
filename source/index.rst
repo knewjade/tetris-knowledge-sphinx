@@ -21,4 +21,5 @@ Welcome
    publish_links
    publish_docs
    2pcsystem/index
+   blogs/index
    contact
