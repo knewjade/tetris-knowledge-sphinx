@@ -1,7 +1,7 @@
 language: python
 before_deploy:
-  - pip install --require requirements.txt
   - make html
+script:
 deploy:
   provider: pages
   skip-cleanup: true
