@@ -1,7 +1,7 @@
 language: python
 python:
     - "3.6"
-script: make
+script: make html
 deploy:
   provider: pages
   skip-cleanup: true
