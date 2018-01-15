@@ -12,5 +12,3 @@ deploy:
   repo: knewjade/tetris-knowledge
   local-dir: build/html/
   target-branch: master
-  on:
-    branch: master
