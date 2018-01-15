@@ -1,7 +1,8 @@
 language: python
 python:
   - 3.6
-script: make html
+script:
+  - make html
 before_deploy:
   - touch build/html/.nojekyll
 deploy:
