@@ -1,0 +1,14 @@
+language: python
+python:
+    - "3.6"
+script: make html
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: ${GITHUB_TOKEN}
+  keep-history: true
+  repo: knewjade/tetris-knowledge
+  local-dir: ./build/html/
+  target-branch: master
+  on:
+    branch: master
