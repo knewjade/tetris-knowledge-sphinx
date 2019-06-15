@@ -21,6 +21,7 @@ Welcome
    publish_links
    publish_docs
    publish_pc
+   other
    2pcsystem/index
    opening_tspins
    blogs/index
