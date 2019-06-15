@@ -24,5 +24,4 @@ Welcome
    other
    2pcsystem/index
    opening_tspins
-   blogs/index
    contact
