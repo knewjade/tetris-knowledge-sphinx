@@ -46,9 +46,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'newjade-tetris-knowledge'
-copyright = '2017-2020, newjade'
-author = 'newjade'
+project = 'knewjade-tetris-knowledge'
+copyright = '2017-2021, knewjade'
+author = 'knewjade'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -134,7 +134,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'solution-finder.tex', 'solution-finder Documentation',
-     'newjade', 'manual'),
+     'knewjade', 'manual'),
 ]
 
 
