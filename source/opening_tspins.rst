@@ -12,27 +12,27 @@
 前提条件
 ===========================================
 
-1: Tミノを除いて、ライン消去が発生する解は含まない
+1: Tミノを除いてもライン消去が発生する解は含まない
 
 例: `テト譜 <http://fumen.zui.jp/?v115@RhRpi0ilR4RpBeg0glAeR4KeAgHDhwhIewhDeBtCew?hEeBtBewhMeAgHvhA9NYeAl/PVBFtDfET4ZOBlvs2AWJEfE?T4JwBlvs2AUeAAADhglFeg0BewhBtBeR4g0RpwhglAtQaQ4?Qpglg0RpAewhBPJeAgWAAvhANpQeAl/PVBFtDfET4ZOBlvs?2AWJEfET4JwBlvs2AUeAAA>`__
 
-2: Tスピンできるミノの組み合わせのうち、不要なミノが含まれているものは解としない。
-具体的には、以下のすべての条件を満たすミノがひとつでも含まれる場合は解としない。
+2: すべてのミノの中に、Tスピンに影響を与えないミノが含まれているものは解としない。
+具体的には、以下の条件を満たすミノがひとつでも含まれる場合は解としない。
 
-  - ミノを取り除いても、消去されるライン数が変化しない
-  - ミノを取り除いても、Tスピンができる
-  - ミノを取り除いても、すべてのミノが接着したままである（空中に浮かない）
+  - あるミノを取り除いても、消去されるライン数が変化しない
+  - あるミノを取り除いても、Tスピンができる
+  - あるミノを取り除いても、すべてのミノが接着したままである（空中に浮かない）
 
 例: `テト譜 <http://fumen.zui.jp/?v115@Whg0AeBtBezhi0BtJeNJYYAl/PVBFtDfET4ZOBlvs2?AUrDfETYmzBKhRpEeQLBeRpg0AeBtAeQLAPyhAeg0glAeAt?JeNJY3Al/PVBFtDfET4ZOBlvs2AWJEfET4JwBlvs2AUuTAB?Coo2APYHDBQOHSAVvT3AEY/TBZ0mAAChg0AeBtBezhi0BtQ?LBewSAeQpDeRLAewSAewSAeBPKeN/XYAl/PVBFtDfET4ZOB?lvs2AUrDfETYmzB9gQLIewSQLAeBtgHAeBPAeglCexhAeg0?BehlAewhhWwhi0JeFKJHhglBeBtCeRpCeAPAeAtAeg0RpAe?wSQLAPxSwhAeh0JeFKY3Al/PVBFtDfET4ZOBlvs2AWJEfET?4JwBlvs2AUuTABCoo2APYHDBQOHSAVvT3AEY/TBZ0mAAChQ?4DeglBeBtR4AeRpCeAPAeAtQ4g0CewSQLAPxSwhAeRpJeFK?Y5Al/PVBFtDfET4ZOBlvs2AUrDfETYmzBl8ESASY9tCEYHD?BQhuRA1d0KBGY3JBSrnRAV1w9BTAAAA>`__
 
-3: Tミノを含めたすべてのミノの位置が同じとき、同一解とする。
-ある地形で複数のTスピンができる場合でも、ひとつの解とする。
+3: Tミノを含めたすべてのミノの位置が同じになるとき、同一解とする。
+つまり、ある地形内で複数種のTスピンができる場合でも、ひとつの解とする。
 
 例: `テト譜 <http://fumen.zui.jp/?v115@tgilGeglEezhR4Aei0CeR4Deg0DeBtBeRpEeBtAeRp?Je19XBARAAAAwgQLHeSLyeNHYUARl78AQemsCwOpTASIL4D?urkrDtgilHehWCezhwwQ4Aei0FeRLHeQLWeVH2BASAAAAvh?ANHYbASl78AQemsCwOpTASIL4DurkrDFbcYCJGmCAtgilHe?hWCezhwwQ4Aei0FeRLHeQLWeFH2BATAAAAvhANHYbATl78A?QemsCwOpTASIL4DurkrDFbcYCJGmCAtgilHehWCezhwwQ4A?ei0FeRLHeQLWelH2BAUAAAAvhANHYbAUl78AQemsCwOpTAS?IL4DurkrDFbcYCJGmCA>`__
 
-4: 部分的に同一の組み合わせでも、消去されるライン数が異なる場合はそれぞれ解とする
+4: ミノの組み合わせが同一的な部分があっても、最終的に消去されるライン数が異なる場合は、それぞれ別の解とする
 
-5: Tを入れることができない地形は解としない
+5: Tミノを置くことができない地形は解としない
 
 例: `テト譜 <http://fumen.zui.jp/?v115@Bhh0AeQ4CeBtAeg0BeR4AeRpBtg0CeQ4glRpzhAeil?JeFMYDBUYHDBwFhRA1w2KB1XHDBQUHSA1dkRBCYHDBwPjRA?1d0KB4XHDBQOHSA1d0KB3XHDBQeJSA1d0KBBYHDBQetAA>`__
 
@@ -40,10 +40,10 @@
 T-Spin Miniの条件
 -------------------------------------------
 
-T-Spin Miniの判定はゲームタイトルによって異なるが、今回は「以下の条件をすべて満たすとき」とする。
+T-Spin Miniの判定はゲームタイトルによって異なるが、今回は「以下の条件をすべて満たすとき」をMiniと判定する。
 
 1. Tの4隅のうち、3ブロック以上埋まっている 例: `テト譜 <http://fumen.zui.jp/?v115@KhA8AeA8GeywGeA8wwA8NeAgWmAUYHDBQxzEBlPKLB?4vDfET4p9Blvs2AUxDfET4J6Alvs2AwZAAAvhAAgWJBzXHD?BQhlRAVvL+B1XfGBloCSA1Q82BCYHDBwyLSA1d0KBzXHDBQ?BqRA1dEEB0XHDBQEFSA1d0KB4XHDBQexwCtMN5DOBAAAKhw?DAeAADeC8CeG8wDAewDD8JeAgWPAUEzPEJG98AQmqhECDdC?AbhC8Q4D8whKe9NYWAUEzPEJG98Awc1JEHDVTASo9LCuuBA?A2gB8HeA8FeC8whAewhH8BeC8QpC8whAewhB8RpJeNLYPAU?EzPEJG98AQuR5DQDdCA>`__
-2. Tの裏側 (凸がない側)の隅が両方とも埋まっている 例: `テト譜 <http://fumen.zui.jp/?v115@HhC8GeB8CeG8whAewhE8JelKYeAUEzPEJGFfET4p9B?lvs2AUxDfET4J6Alvs2AwZAAAHhC8GeB8CeE8BewDAewhE8?JelKY3BUYHDBQxLSAVlGLB4X3JBwilRAVaW3A4XPNBDdlRA?VFROByXPDCmowRA1dEEBDY3JB3UFSA1dMOBFYHDBQEFSA1d?0KB4XHDBQoeYCJGeTA1d0KBCYHDBQBOSA1d0KBBYHDBQ0wR?A1d0KBBYHDBQetAAHhB8whGeB8CeE8DeF8Je1KYlBUYHDBQ?xLSAVlGLB4X3JBwilRAVaW3A4XPNBDdlRAVFROByXPDCmow?RA1dEEBDY3JB3UFSA1dMOBFYHDBQRjRA1d0KB2XHDBQelRA?1d0KBBYHDBQelRA1d0KB4T1JEJBAAAHhC8IeQaQLAeE8BeQ?LAeQLOe1KYIBlfnBCQ0DfEmJH6Bl/3RBjJEfEVIUEBlvs2A?0EEfE1S/zBlvs2A3HEfET45ABlvs2AWxDfETYNEBlvs2AYD?EfEm58UB>`__
+2. Tの凸側の隅がどちらか埋まっていない 例: `テト譜 <https://fumen.zui.jp/?v115@HhC8GeB8CeG8whAewhE8JelKYeAUEzPEJGFfET4p9B?lvs2AUxDfET4J6Alvs2AwZAAAHhC8GeB8CeE8BewDAewhE8?JelqQ3BUYHDBQxLSA1w2AC4X3JBwilRAVaW3A4XPNBDdlRA?VFROByXPDCmowRA1dEEBDY3JB3UFSA1dMOBFYHDBQEFSA1d?0KB4XHDBQoeYCJGeTA1d0KBCYHDBQBOSA1d0KBBYHDBQ0wR?A1d0KBBYHDBQetAAHhB8whGeB8CeE8DeF8Je1qQlBUYHDBQ?xLSA1w2AC4X3JBwilRAVaW3A4XPNBDdlRAVFROByXPDCmow?RA1dEEBDY3JB3UFSA1dMOBFYHDBQRjRA1d0KB2XHDBQelRA?1d0KBBYHDBQelRA1d0KB4T1JEJBAAA>`__
 3. 通常のTSTと同じ回転入れではない (Tの凸が左右を向いている and SRSのテストパターンが最後ではない) 例: `テト譜 <http://fumen.zui.jp/?v115@YhglRpAezhilRpJe1JnvhANJYEANOJ5DIhg0HeQLg0?GeglxhAezhAeRaJe1K2AAvhANKYEANOJ5DtgilGeglEezhR?4Aei0CeR4Deg0AegHQLAeBtBeRpAegHRLAeBtAeQpwhJelH?2AAvhANHYEANOJ5D3gBtgWGeAtHewDQaAeRaAegHBeglQpQ?aAPQLAtwhwSilRpAPwSwhhWJeVC2AAvhAtLYlAU9rSATD88?AwT1JEpYHDBQRsRA1d0KBGYHDBQxCSA1dEEBUAAAA>`__
 
 
