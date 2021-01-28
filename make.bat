@@ -9,7 +9,7 @@ if "%SPHINXBUILD%" == "" (
 )
 set SOURCEDIR=source
 set BUILDDIR=build
-set SPHINXPROJ=newjade-tetris-knowledge
+set SPHINXPROJ=knewjade-tetris-knowledge
 
 if "%1" == "" goto help
 

@@ -4,7 +4,7 @@
 # You can set these variables from the command line.
 SPHINXOPTS    =
 SPHINXBUILD   = python3 -msphinx
-SPHINXPROJ    = newjade-tetris-knowledge
+SPHINXPROJ    = knewjade-tetris-knowledge
 SOURCEDIR     = source
 BUILDDIR      = build
 
