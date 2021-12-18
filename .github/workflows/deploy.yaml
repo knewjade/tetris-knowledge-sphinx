@@ -17,6 +17,6 @@ jobs:
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
           external_repository: knewjade/tetris-knowledge
-          publish_branch: master
+          publish_branch: main
           enable_jekyll: false
           publish_dir: ./build/html
