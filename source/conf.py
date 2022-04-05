@@ -47,7 +47,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'knewjade-tetris-knowledge'
-copyright = '2017-2021, knewjade'
+copyright = '2017-2022, knewjade'
 author = 'knewjade'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -106,7 +106,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'solution-finderdoc'
+htmlhelp_basename = 'knewjade-tetris-knowledge'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -133,7 +133,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'solution-finder.tex', 'solution-finder Documentation',
+    (master_doc, 'knewjade-tetris-knowledge.tex', 'knewjade tetris knowledge',
      'knewjade', 'manual'),
 ]
 
@@ -143,7 +143,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'solution-finder', 'solution-finder Documentation',
+    (master_doc, 'knewjade-tetris-knowledge', 'knewjade tetris knowledge',
      [author], 1)
 ]
 
@@ -154,8 +154,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'solution-finder', 'solution-finder Documentation',
-     author, 'solution-finder', 'One line description of project.',
+    (master_doc, 'knewjade-tetris-knowledge', 'knewjade tetris knowledge',
+     author, 'knewjade-tetris-knowledge', 'One line description of project.',
      'Miscellaneous'),
 ]
 
