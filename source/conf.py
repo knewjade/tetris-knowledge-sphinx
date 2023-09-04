@@ -47,7 +47,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'knewjade-tetris-knowledge'
-copyright = '2017-2022, knewjade'
+copyright = '2017-2023, knewjade'
 author = 'knewjade'
 
 # The version info for the project you're documenting, acts as replacement for
