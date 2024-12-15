@@ -1,0 +1,19 @@
+{
+    "name": "python sandbox in devcontainer",
+    "image": "mcr.microsoft.com/devcontainers/python:latest",
+    "features": {
+      "ghcr.io/devcontainers-contrib/features/direnv:1": {},
+      "ghcr.io/devcontainers-contrib/features/go-task:1": {}
+    },
+    "customizations": {
+      "vscode": {
+          "extensions": [
+            "github.copilot",
+            "github.copilot-chat",
+            "formulahendry.code-runner"
+        ]
+      }
+    },
+    "remoteUser": "vscode",
+    "postCreateCommand": "/bin/sh .devcontainer/postCreateCommand.sh"
+}
